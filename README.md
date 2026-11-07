@@ -1,4 +1,4 @@
-# Visitor Pattern — Advanced File System
+# Visitor Pattern - Advanced File System
 
 ## Description
 
@@ -14,19 +14,19 @@ The system supports files, directories, nested directories, and three independen
 
 ## Visitor Operations
 
-1. TotalSizeVisitor — calculates the total size of files.
-2. SearchVisitor — searches files by name and minimum size.
-3. StatisticsVisitor — counts files, directories, and maximum tree depth.
+1. TotalSizeVisitor - calculates the total size of files.
+2. SearchVisitor - searches files by name and minimum size.
+3. StatisticsVisitor - counts files, directories, and maximum tree depth.
 
 ## Project Structure
 
-- Element — common interface for files and directories.
-- FileNode — represents a file with a name and byte size.
-- DirectoryNode — manages files and nested directories.
-- Visitor — declares overloaded visit methods.
-- FileSystemWalker — recursively traverses the file system.
-- Main — demonstrates the application.
-- FileSystemTest — contains eight automated tests.
+- Element - common interface for files and directories.
+- FileNode - represents a file with a name and byte size.
+- DirectoryNode - manages files and nested directories.
+- Visitor - declares overloaded visit methods.
+- FileSystemWalker - recursively traverses the file system.
+- Main - demonstrates the application.
+- FileSystemTest - contains eight automated tests.
 
 ## Design Decisions
 
