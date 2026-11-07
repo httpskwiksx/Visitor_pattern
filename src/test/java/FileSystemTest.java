@@ -247,6 +247,7 @@ public class FileSystemTest {
 
         walker.walk(root, visitor);
 
+
         assertEquals(400, visitor.getTotalSize());
     }
 

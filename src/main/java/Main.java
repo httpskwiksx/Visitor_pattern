@@ -31,14 +31,14 @@ public class Main {
         System.out.println("Total size: "
                 + sizeVisitor.getTotalSize() + " bytes");
 
-        // 2. SearchVisitor
+        // 2. SearchVisitor:
         SearchVisitor searchVisitor = new SearchVisitor("report", 200);
         walker.walk(root, searchVisitor);
 
         System.out.println("Matching files: "
                 + searchVisitor.getMatchingPaths());
 
-        // 3. StatisticsVisitor
+        // 3. StatisticsVisitor:
         StatisticsVisitor statisticsVisitor = new StatisticsVisitor();
         walker.walk(root, statisticsVisitor);
 

@@ -1,5 +1,6 @@
 public class StatisticsVisitor implements Visitor {
 
+    
     private int fileCount = 0;
     private int directoryCount = 0;
     private int maxDepth = 0;
